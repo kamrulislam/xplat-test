@@ -7,5 +7,23 @@
     "tslint.json": "*",
     "nx.json": "*"
   },
-  "projects": {}
+  "projects": {
+    "libs": {
+      "tags": []
+    },
+    "xplat": {
+      "tags": []
+    },
+    "web-client": {
+      "tags": [
+        "ki"
+      ]
+    },
+    "web-client-e2e": {
+      "tags": []
+    },
+    "nativescript-native-client": {
+      "tags": []
+    }
+  }
 }

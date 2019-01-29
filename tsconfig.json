@@ -9,10 +9,52 @@
     "importHelpers": true,
     "target": "es5",
     "module": "es2015",
-    "typeRoots": ["node_modules/@types"],
-    "lib": ["es2017", "dom"],
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "lib": [
+      "es2017",
+      "dom"
+    ],
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@kixplat/*": [
+        "libs/*"
+      ],
+      "@kixplat/electron": [
+        "xplat/electron/index.ts"
+      ],
+      "@kixplat/electron/*": [
+        "xplat/electron/*"
+      ],
+      "@kixplat/ionic": [
+        "xplat/ionic/index.ts"
+      ],
+      "@kixplat/ionic/*": [
+        "xplat/ionic/*"
+      ],
+      "@kixplat/nativescript": [
+        "xplat/nativescript/index.ts"
+      ],
+      "@kixplat/nativescript/*": [
+        "xplat/nativescript/*"
+      ],
+      "@kixplat/nest": [
+        "xplat/nest/index.ts"
+      ],
+      "@kixplat/nest/*": [
+        "xplat/nest/*"
+      ],
+      "@kixplat/web": [
+        "xplat/web/index.ts"
+      ],
+      "@kixplat/web/*": [
+        "xplat/web/*"
+      ]
+    }
   },
-  "exclude": ["node_modules", "tmp"]
+  "exclude": [
+    "node_modules",
+    "tmp"
+  ]
 }
